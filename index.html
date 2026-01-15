@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SZ Online | CSC Online Services</title>
+  <meta name="description" content="SZ Online provides CSC online services including Aadhaar, PAN, ITR filing, bill payments, banking, insurance and government services." />
+  <meta name="keywords" content="SZ Online, CSC Online Service, Aadhaar update, PAN card, ITR filing, bill payment, DigiPay" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: 'Poppins', sans-serif; color: #222; }
+
+    header {
+      background: linear-gradient(135deg, #6a11cb, #2575fc);
+      color: #fff;
+      padding: 20px 60px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    header h1 { font-size: 26px; }
+    nav a {
+      color: #fff;
+      margin-left: 25px;
+      text-decoration: none;
+      font-weight: 500;
+    }
+
+    .hero {
+      min-height: 90vh;
+      background: linear-gradient(135deg, #2575fc, #6a11cb);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      color: #fff;
+      padding: 40px;
+    }
+
+    .hero h2 { font-size: 48px; margin-bottom: 20px; }
+    .hero p { font-size: 18px; max-width: 700px; margin: auto; }
+
+    section { padding: 80px 60px; }
+
+    .about, .contact { background: #f9f9f9; }
+    .services { background: #fff; }
+
+    h3 { text-align: center; font-size: 36px; margin-bottom: 40px; }
+
+    .services-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 30px;
+    }
+
+    .service-card {
+      background: linear-gradient(135deg, #6a11cb, #2575fc);
+      color: #fff;
+      padding: 30px;
+      border-radius: 15px;
+      transition: transform 0.3s ease;
+    }
+
+    .service-card:hover { transform: translateY(-10px); }
+
+    .contact form {
+      max-width: 600px;
+      margin: auto;
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+    }
+
+    .contact input, .contact textarea {
+      padding: 15px;
+      border-radius: 8px;
+      border: 1px solid #ccc;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    .contact button {
+      background: linear-gradient(135deg, #2575fc, #6a11cb);
+      color: #fff;
+      border: none;
+      padding: 15px;
+      border-radius: 8px;
+      cursor: pointer;
+      font-size: 16px;
+    }
+
+    footer { background: #111; color: #aaa; text-align: center; padding: 20px; }
+
+    .whatsapp {
+      position: fixed; bottom: 20px; right: 20px;
+      background: #25D366; color: #fff;
+      padding: 14px 18px; border-radius: 50px;
+      text-decoration: none; font-weight: 600;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+    }
+
+    .instagram {
+      position: fixed; bottom: 80px; right: 20px;
+      background: linear-gradient(45deg, #f58529, #dd2a7b, #8134af, #515bd4);
+      color: #fff; padding: 14px 18px; border-radius: 50px;
+      text-decoration: none; font-weight: 600;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+    }
+
+    @media (max-width: 768px) {
+      header { flex-direction: column; }
+      nav { margin-top: 10px; }
+      .hero h2 { font-size: 36px; }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>SZ Online</h1>
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#services">Services</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<section class="hero" id="home">
+  <div>
+    <h2>CSC ONLINE SERVICE</h2>
+    <p>
+      Trusted CSC Online Services by SZ Online. We help individuals, small businesses, and rural citizens
+      access essential government, financial, and digital services easily — without long queues or confusion.
+    </p>
+    <p style="margin-top:15px; font-size:16px;">
+      Fast • Reliable • Affordable • Secure
+    </p>
+  </div>
+</section>
+
+<section class="about" id="about">
+  <h3>About Us</h3>
+  <p style="max-width: 900px; margin: auto; text-align: center; font-size: 17px; line-height: 1.8;">
+    <strong>SZ Online</strong> is a trusted CSC (Common Service Center) support platform providing a wide range
+    of government, financial, utility, and digital services to citizens across India. Our goal is to bridge
+    the gap between people and digital services by offering simple, transparent, and reliable assistance.
+    <br><br>
+    We understand that many government and online processes can be confusing and time-consuming.
+    That’s why our experienced team ensures every service is handled correctly, securely, and quickly —
+    helping you save time, effort, and money.
+  </p>
+</section>
+
+<section class="services" id="services">
+  <h3>Our Services</h3>
+  <p style="max-width:900px; margin:0 auto 50px; text-align:center; font-size:16px; color:#555;">
+    We offer a comprehensive range of CSC services designed to meet everyday digital, financial,
+    and government-related needs for individuals and businesses.
+  </p>
+  <div class="services-grid">
+    <div class="service-card">
+      <h4>Government Services (G2C)</h4>
+      <p>Aadhaar updates & e-Prints, PAN Card services, Passport assistance, Jeevan Pramaan, e-Shram registration, ITR filing, Udyam Registration, PM-Kisan, CPGRAMS, and more.</p>
+    </div>
+    <div class="service-card">
+      <h4>Financial Services</h4>
+      <p>DigiPay banking services, loans assistance, insurance products, and National Pension System (NPS).</p>
+    </div>
+    <div class="service-card">
+      <h4>Utility & Bill Payments</h4>
+      <p>Electricity, water, gas, DTH, telecom bill payments, and FASTag services.</p>
+    </div>
+    <div class="service-card">
+      <h4>Education & Skills</h4>
+      <p>CSC Academy courses, PMGDISHA digital literacy, and skill development programs.</p>
+    </div>
+    <div class="service-card">
+      <h4>Health & Agriculture</h4>
+      <p>Tele-Law, Tele-Medicine, KVK tele-consultation, and agriculture-related CSC services.</p>
+    </div>
+    <div class="service-card">
+      <h4>E-Commerce & Travel</h4>
+      <p>Grameen E-Store, IRCTC ticket booking, and travel-related services.</p>
+    </div>
+  </div>
+</section>
+
+<section class="about">
+  <h3>Why Choose SZ Online</h3>
+  <div style="max-width:1000px; margin:auto; display:grid; grid-template-columns:repeat(auto-fit, minmax(250px,1fr)); gap:30px;">
+    <div>
+      <h4>✅ Trusted CSC Support</h4>
+      <p>We follow official CSC procedures and ensure every service is handled securely and correctly.</p>
+    </div>
+    <div>
+      <h4>⏱ Time Saving</h4>
+      <p>No long queues or repeated visits. We complete your work quickly and efficiently.</p>
+    </div>
+    <div>
+      <h4>💰 Affordable Charges</h4>
+      <p>Transparent and reasonable service charges with no hidden costs.</p>
+    </div>
+    <div>
+      <h4>📲 Easy Communication</h4>
+      <p>Call or WhatsApp us anytime for updates and assistance.</p>
+    </div>
+  </div>
+</section>
+
+<section class="contact" id="contact">
+  <h3>Contact Us</h3>
+  <p style="text-align:center; margin-bottom:10px; font-size:16px;">
+    Need help or have questions? Reach out to us — we’re here to assist you.
+  </p>
+  <p style="text-align:center; margin-bottom:25px; font-size:16px;">
+    📧 Email: <a href="mailto:szonlinesos@gmail.com">szonlinesos@gmail.com</a> | ☎ Phone / WhatsApp: <a href="tel:9884263624">9884263624</a>
+  </p>
+
+  <div style="max-width:900px; margin:0 auto 40px;">
+    <iframe 
+      src="https://www.google.com/maps?q=India&output=embed" 
+      width="100%" height="300" style="border:0; border-radius:12px;" 
+      allowfullscreen="" loading="lazy"></iframe>
+  </div>
+
+  <form action="https://formsubmit.co/szonlinesos@gmail.com" method="POST">
+    <input type="hidden" name="_subject" value="New Contact Message - SZ Online">
+    <input type="hidden" name="_captcha" value="false">
+    <input type="hidden" name="_template" value="table">
+
+    <input type="text" name="name" placeholder="Your Name" required />
+    <input type="email" name="email" placeholder="Your Email" required />
+    <textarea rows="5" name="message" placeholder="Your Message" required></textarea>
+    <button type="submit">Send Message</button>
+  </form>
+</section>
+
+<footer>
+  <p>© 2026 SZ Online. All rights reserved.</p>
+</footer>
+
+<a class="whatsapp" href="https://wa.me/919884263624" target="_blank">💬 WhatsApp</a>
+
+<a class="instagram" href="https://www.instagram.com/szonlinesz" target="_blank">📸 Instagram</a>
+<a class="whatsapp" href="https://wa.me/919884263624" target="_blank">💬 WhatsApp</a>
+
+</body>
+</html>
